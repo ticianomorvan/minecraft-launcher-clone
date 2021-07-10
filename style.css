@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background-color: #202020;
+}
+
+#minecraft-launcher {
+    margin: auto ;
+    background-color: #262626;
+    width: 78%;
+    height: 105vh;
+    border-radius: 5px;
+}
+
+aside {
+    width: 200px;
+    height: 100%;
+    padding: 4px;
+}
+
+.aside-box {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition-duration: .18s;
+    transition-property: background-color;
+}
+
+.aside-box:hover {
+    background-color: #323232;
+    cursor: pointer;
+}
+
+.aside-paragraph {
+    color: #fff;
+    padding: 12.5px;
+}
+
+.aside-icon {
+    width: 34px;
+    object-fit: contain;
+}
+
+#minecraft-account b {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+#minecraft-account p {
+    color: #999;
+    font-size: 14px;
+    padding: 7px;
+}
+
+#expand-arrow {
+    margin-top: 3.5px;
+    color: #999;
+}
+
+#minecraft-java b {
+    font-weight: 400;
+    font-size: 13.5px;
+}
+
+#minecraft-dungeons b {
+    font-weight: 400;
+    font-size: 13.5px;
+}
+
+#settings {
+    position: relative;
+    top: 42.5vh;
+}
+
+.content-container {
+    position: relative;
+    width: 85vw;
+    top: -103.45vh;
+    left: 15vw;
+}
+
+.content-header {
+    color: #fff;
+}
+
+#minecraft-java-name {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+#ul-nav {
+    padding: 10px;
+}
+
+.li-nav {
+    display: inline-flex;
+    margin-right: 25px;
+    color: #ddd;
+    transition-duration: .15s;
+    transition-property: color;
+}
+
+.li-nav:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.wallpaper-container {
+    position: relative;
+    z-index: 1;
+    width: 85%;
+}
+
+#minecraft-wallpaper {
+    width: inherit;
+    object-fit: contain;
+}
+
+#minecraft-play {
+    position: absolute;
+    top: 68vh;
+    left: 20vw;
+    z-index: 10;
+}
+
+#minecraft-play:hover {
+    filter: brightness(1.15);
+    cursor: pointer;
+}
+
+.minecraft-version {
+    display: flex;
+    width: 250px;
+    margin: 5px;
+}
+
+.minecraft-version p {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.minecraft-version b {
+    color: #fff;
+    font-size: 16px;
+}
